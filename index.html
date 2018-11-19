@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- for comments do command + slash(/) -->
+	<!-- our metadata goes here-->
+	<title>how to create a blog</title>
+</head>
+<body>
+
+	<h1>login</h1>
+	<form>
+		<input name="Username" type="text" placeholder="Username" required="">
+		<br>
+	<!-- <input type="color" >
+	<input type="radio" > -->
+		<input name="password" type="password" placeholder="password" required="">
+		<br>
+		<input type="checkbox" name="ShowPass" id="viewPasscode">
+		<label for="viewPasscode">Show Password</label><br><br>
+		<button>login</button>
+	</form>
+	<br>
+
+<!-- 	This is kind of form where each input type is inside each label
+ --><!-- 	<p>This is kind of form where each input type is inside each label</p>
+	<h3>Not registered yet? Sign Up</h3>
+	<form>
+	<label>
+		Username:
+		<input type="text" placeholder="Username"><br>
+	</label>
+	<label>
+		Email:
+		<input type="Email" placeholder="Email"><br>
+	</label>
+	<label>
+		Password: 
+		<input type="password" placeholder="password"><br>
+	</label>
+	<label>
+		Confirm Password: 
+		<input type="password" placeholder="Re-enter password"><br>
+	</label><br>
+	<button>Submit</button>
+	</form>  -->
+
+<!-- 	This is kind of form where Input types are separate from the label
+ -->	<p>This is kind of form where Input types are separate from the label</p>
+	</form>
+	<h3>Not registered yet? Sign Up</h3>
+	<form>
+		<label for="fName">First Name: </label>
+		<input id="fName" type="text" placeholder="fName" required="">
+
+		<label for="lName">Last Name: </label>
+		<input id="lName" type="text" placeholder="lName" required=""><br>
+
+		<label for="Username">Username: </label>
+		<input id="Username" type="text" placeholder="Username" required=""><br>
+
+		<label for="Email">Email: </label>
+		<input id="Email" type="Email" placeholder="Email" required=""><br>
+
+		<label for="Password">Password: </label>
+		<input id="Password" type="password" placeholder="password" pattern="pattern=".{5,}" required=""><br>
+
+<!-- pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" -->
+		<label for="Confirm">Confirm Password:</label>
+		<input id="Confirm" type="password" placeholder="Re-enter password" required=""><br>
+
+		<label for="gender">Gender: </label>
+
+		<input type="radio" name="GenderChoice" id="male" value="MALE_RETURN">
+		<label for="male">Male</label>
+
+		<input type="radio" name="GenderChoice" id="female" value="FEMALE_RETURN">
+		<label for="female">Female</label>
+
+		<input type="radio" name="GenderChoice" id="others" name="OTHER_RETURN">
+		<label for="others">Other</label><br>
+		<select name="month">
+			<option>month</option>
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+			<option>Apr</option>
+		</select>
+
+		<select name="Day">
+			<option>Day</option>
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>
+			<option>13</option>
+		</select>
+
+		<select name="Year">
+			<option>Year</option>
+			<option>1996</option>
+			<option>1997</option>
+			<option>1998</option>
+			<option>1999</option>
+		</select><br><!--
+		<textarea></textarea> -->
+		<label for="terms">I agree terms and conditions</label>
+		<input type="checkbox" name="terms" id="terms">
+		<br><br>
+
+		<button>Submit</button>
+	</form>
+<!-- 	<thead>
+		<tr>name</tr>
+	</thead>
+	<body>Age</body> -->
+</body>
+</html>
