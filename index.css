@@ -1,7 +1,23 @@
 h1{
 	color:purple;
+	bor
 }
 
 form{
 	color: green;
+}
+button{
+	color: rgb(5,100,78);
+}
+
+p{
+	color: purple;
+	background-color: yellow;
+}
+
+body{
+	background: url(http://messivsronaldo.net/wp-content/uploads/2017/09/messivsronaldo.png);
+	background-size: cover;
+	position: center;
+
 }
