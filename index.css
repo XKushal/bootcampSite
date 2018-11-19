@@ -1,23 +1,55 @@
+/*selects every h1*/
 h1{
 	color:purple;
 	bor
 }
 
+/*selects every forms*/
 form{
 	color: green;
 }
+
+/*selects every buttons*/
 button{
 	color: rgb(5,100,78);
 }
 
+/*selects every paragraph*/
 p{
 	color: purple;
 	background-color: yellow;
 }
 
+/*selects whole body*/
 body{
-	background: url(http://messivsronaldo.net/wp-content/uploads/2017/09/messivsronaldo.png);
 	background-size: cover;
 	position: center;
 
+}
+
+/*this way selects or targets one individual element*/
+#choose{
+	background-color: green;
+}
+
+.cross{
+	text-decoration: underline;
+}
+
+/*Star*/
+*{
+	border: 1px solid lightgrey
+}
+
+/*descendent selectors*/
+li a{
+	color: red;
+}
+
+a[href="https://www.google.com"]{
+	color: green;
+}
+
+ul:nth-of-type(odd){
+	background-color: yellow
 }
