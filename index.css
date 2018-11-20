@@ -18,12 +18,12 @@ button{
 p{
 	color: purple;
 	background-color: yellow;
+	font-family: Ariel;
 }
 
 /*selects whole body*/
 body{
-	background-size: cover;
-	position: center;
+	background-color: white;
 
 }
 
@@ -38,7 +38,8 @@ body{
 
 /*Star*/
 *{
-	border: 1px solid lightgrey
+	border: 1px solid lightgrey;
+	/*text-align: center;*/
 }
 
 /*descendent selectors*/
@@ -52,4 +53,7 @@ a[href="https://www.google.com"]{
 
 ul:nth-of-type(odd){
 	background-color: yellow
+}
+span{
+	font-weight:bold;
 }
