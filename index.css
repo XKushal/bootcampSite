@@ -19,6 +19,7 @@ p{
 	color: purple;
 	background-color: yellow;
 	font-family: Ariel;
+
 }
 
 /*selects whole body*/
@@ -56,4 +57,39 @@ ul:nth-of-type(odd){
 }
 span{
 	font-weight:bold;
+}
+
+td{
+	width: 100px;
+	height: 100px;
+}
+
+.vertical{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.horizontal{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+/*table {
+	margin: auto;
+}*/
+img{
+	width:45%;
+	float: left;
+	margin: 1.66%;
+}
+
+h2{
+	font-family: Sans-serif;
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 8px solid #f1f1f1;
+	width: 45%;
+	padding-bottom: 6px;
 }
