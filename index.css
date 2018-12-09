@@ -38,10 +38,10 @@ body{
 }
 
 /*Star*/
-*{
+/**{
 	border: 1px solid lightgrey;
 	/*text-align: center;*/
-}
+}*/
 
 /*descendent selectors*/
 li a{
